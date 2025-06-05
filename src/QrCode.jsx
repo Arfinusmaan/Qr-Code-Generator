@@ -41,7 +41,7 @@ export const QrCode = () => {
       {loading && <p>Please wait...</p>}
       <div>
           <label htmlFor="datainput" className="input-label">
-            Data For Qr Code
+            Data For Qr Code (e.g., youtube.com)
           </label>
           <input type="text" id="datainput" value={qrData} placeholder="enter data for qr code"  onChange={(e)=>setQrData(e.target.value)}/>
           <label htmlFor="sizeinput" className="input-label">
